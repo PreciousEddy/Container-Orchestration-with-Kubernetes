@@ -6,19 +6,19 @@ Let's deploy a basic "Hello World" web application using Kubernetes.
 
 - Apply the Deployment:
 
-       `` kubectl apply -f hello-world-deployment.yaml``
+`` kubectl apply -f hello-world-deployment.yaml``
 
 - [Create a service YAML](https://github.com/PreciousEddy/Container-Orchestration-with-Kubernetes/blob/main/Kubernetes/hello-world-service.yaml)
 
 - Apply the Service: 
 
-        ```kubectl apply -f hello-world-service.yaml```
+```kubectl apply -f hello-world-service.yaml```
 
 ### Exploring Features:
 
 - Scaling:
  
-        ```kubectl scale --replicas=5 deployment/hello-world```
+```kubectl scale --replicas=5 deployment/hello-world```
 
 - Rolling Updates:
 
@@ -31,14 +31,13 @@ Let's deploy a basic "Hello World" web application using Kubernetes.
 ```
 
 - Apply the updated deployment YAML:
-
 ```kubectl apply -f hello-world-deployment.yaml```
 
 - Service Discovery: 
 
   You can access your application using the service's IP address or hostname. In this example, it's a LoadBalancer type service, so you would use the LoadBalancer's external IP.
 
-  ```kubectl get svc hello-world-service ```
+ ```kubectl get svc hello-world-service ```
 
   *This will provide you with the external IP. You can access your application at `http://<external-ip>.`
 
