@@ -25,3 +25,7 @@ Ingress controllers allow you to manage external access to the services in your 
 
 8. Persistent Volumes and Persistent Volume Claims:
 These provide a way to store data in a way that it's not tied to a specific pod.
+
+More details here:
+
+[See Kubernetes in action] (https://github.com/PreciousEddy/Container-Orchestration-with-Kubernetes/blob/main/Kubernetes/Details.md)
