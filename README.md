@@ -28,4 +28,4 @@ These provide a way to store data in a way that it's not tied to a specific pod.
 
 More details here:
 
-[See Kubernetes in action] (https://github.com/PreciousEddy/Container-Orchestration-with-Kubernetes/blob/main/Kubernetes/Details.md)
+[See Kubernetes in action](https://github.com/PreciousEddy/Container-Orchestration-with-Kubernetes/blob/main/Kubernetes/Details.md)
